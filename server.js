@@ -11,7 +11,7 @@ const app = express();
 
 // Konfigurasi CORS
 const corsOptions = {
-    origin: "http://localhost:3000", // Membolehkan akses dari frontend di localhost:3000
+    origin: "https://mern-project1-frontend-alpha.vercel.app/", // Membolehkan akses dari frontend di vercel
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
 };
